@@ -1,0 +1,130 @@
+body{
+	background: #fcfcfc;
+}
+h1{
+	font-family: sans-serif;
+	font-weight: 300;
+}
+
+.input {
+    width: 100%;
+}
+.fontjudul {
+    margin: 0px auto 0px 25px;
+}
+.kotak{
+	margin: 20px auto;
+	background: #ffffff;
+	width: 900px;	
+	padding: 20px 50px 50px 50px;
+	border-radius: 3px;
+}
+.search {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+.navbar .navbar-brand img {
+    width: 60px;
+}
+.navbar img{
+	width: 80px;
+	border: 2px solid #cabd07;
+	border-radius: 100%;
+}
+.navbar .nav-item {
+    text-decoration-color: tomato;
+}
+.navbar ul li{
+	margin: 10px 0px 5px;
+	width: 70px;
+	padding: 3px;
+}
+.btn {
+	outline-color: lightblue;
+}
+.conteudo img{
+    width: 400px;
+    height: 200px;
+    margin: 0px auto 5px;
+}
+.sidebar {
+    margin-top: 25px;
+    float: right;
+    width: 300px;
+    margin-left: 1000px;
+    position: fixed;
+    padding: 5px;
+}
+.sidebar .widget {
+    padding: 25px;
+    margin: 0 0 25px;
+    background: #262629;
+    border-bottom: 2px solid #fff;
+    transition: all 0.5s ease;
+}
+.sidebar .widget:hover {
+    border-bottom: 2px solid#e6ab07;
+}
+.sidebar .widget h2 {
+    padding: 0;
+    margin: 0 0 15px;
+    color: #e6ab07;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.sidebar .widget p {
+    font-size: 14px;
+   }
+.sidebar .widget p:last-child {
+    margin: 0;
+}
+.menusidebar {
+    list-style: none;
+    padding: 0px;
+}
+.menusidebar li {
+    border-bottom: #666 1px solid;
+    padding: 5px;
+}
+.menusidebar li a {
+    display: block;
+}
+.blog {
+    float: left;
+}
+.conteudo{
+    width: 1000px;
+    padding: 25px;
+    margin: auto;
+
+}
+.conteudo .continue-lendo{
+    color : #000;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-weight: 500;
+}
+.post-info{
+    float: right;
+    font-size: 12px;
+    margin: -10px 0 15px;
+    text-transform: uppercase;
+}
+.post {
+    float: right;
+    font-size: 12px;
+    margin: -10px 0 15px 100px;
+}
+#footer {
+    position: fixed;
+    padding-left: 10px;
+    bottom: 0;
+    background-color: #1b1b1f;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+}
